@@ -1,0 +1,48 @@
+
+html,body
+{
+  padding: 0px;
+  margin: 0px;
+  font-size: 12px;
+  font-family: helvetica;
+}
+
+nav{
+  display: flex;
+  background-color: #A10BDF;
+  padding: 10px;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+  color: white;
+}
+
+nav li{
+    padding-left:15px;
+    list-style: none;
+    color: white;
+
+}
+
+nav li a{
+    color: black;
+    text-decoration:none;
+}
+
+nav li a:hover{
+    color: white;
+}
+/*-------------------main----------------------*/
+
+.main_section{
+  padding: 2%;
+  text-align: center;
+}
+
+.products {
+  background-image: url();
+}
