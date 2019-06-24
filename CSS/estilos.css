@@ -44,5 +44,23 @@ nav li a:hover{
 }
 
 .products {
-  background-image: url();
+
+  background-image: url("../Imagenes/abc.jpg");
+  height: 10px;
+  background-size:contain;
+  background-position: center top;
+  padding: 15%;
+  display: flex;
+  justify-content: center;
+}
+
+.producto{
+  background-position: center;
+  padding: 20px;
+}
+
+.producto .contenedor{
+
+background-color: white;
+padding: 20px;
 }
