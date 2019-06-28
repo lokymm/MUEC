@@ -112,7 +112,7 @@ box-shadow: 0 0 5px #504242;
   height: 50px;
   background-size:contain;
   background-position: center bottom;
-  padding: 10%;
+  padding: 20%;
   display: flex;
   justify-content: center;
 }
@@ -123,8 +123,12 @@ box-shadow: 0 0 5px #504242;
   margin-top: -100px;
 }
 
-.producto .contenedor{
+.treselementos .elemento{
 background-color: white;
 padding: 20px;
-box-shadow: 0 0 5px #504242;
+text-align: center;
+}
+
+.img_element{
+  text-align: center;
 }
