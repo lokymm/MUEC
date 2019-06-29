@@ -1,0 +1,36 @@
+@media (max-width: 600px) {
+
+.products{
+  display: inherit;
+  height: auto;
+}
+
+.producto{
+  margin-top: auto;
+}
+
+.main_section{
+  padding: 4%;
+}
+
+.losmas{
+  display: inherit;
+  height: auto;
+}
+
+.menciones, .cuatrofotos, .foto{
+  display: inherit;
+  height: auto;
+  text-align: center;
+  padding: 20%;
+}
+
+.foto{
+  display: inherit;
+  height: auto;
+  text-align: center;
+  padding: 20%;
+}
+
+
+}
