@@ -18,8 +18,9 @@
 --caja:0 0 5px #504242;
 }
 
-/* Variables-----*/
+/* Fin Variables-----*/
 
+/* Comienzo atributos generales de HTML-----*/
 html,body
 {
   padding: 0px;
@@ -57,6 +58,15 @@ nav li a{
 nav li a:hover{
     color: white;
 }
+
+label {
+  font-size:Var(--normal);
+  font-family: serif;
+  padding-top: 6px;
+}
+
+/* FIN atributos generales de HTML-----*/
+
 /*-------------------main----------------------*/
 
 .main_section{
@@ -171,3 +181,36 @@ text-align: center;
 .img_foto{
   text-align: center;
 }
+
+/*-------------------page PAGOS ----------------------*/
+
+.imagen_mod_pago{
+  max-width: 100px;
+  text-align: center;
+  margin: auto;
+}
+
+.Modulo_Pago{
+  background-color: white;
+  box-shadow: 0 0 5px #504242;
+  padding: 10px;
+}
+/* el tamaño y fuente de la etiquetas del Formulario
+están en la sección atributos generales de HTML-----*/
+
+
+.Modulo_Pago input {
+width: 100%;
+height: 35px;
+border-radius: 4px;
+border: 1px solid black;
+box-sizing: border-box;
+}
+
+
+.Modulo_Pago .main_button{
+  margin-top: 20px;
+}
+
+
+/*-------------------FIN page PAGOS ----------------------*/
